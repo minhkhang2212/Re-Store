@@ -1,19 +1,60 @@
-# Restore Udemy Course repository
+# 🛒 E-Commerce Store (Fullstack .NET + React)
 
-This is the updated repository for the .Net 9.0, React 19 and Redux + RTK Query version of the course rewritten as at December 2024
+## 📖 Overview
+This is a fullstack **E-Commerce Store application** built with **.NET 7** on the backend and **React 18** on the frontend.  
+The project demonstrates a complete workflow of creating a modern web application — from database, API, authentication, frontend UI, to deployment.  
 
-View a demo of this app [here](https://restore-course.azurewebsites.net/).  
+---
 
-You can see how this app was made by checking out the Udemy course for this here (with discount)
+## 🚀 Features
+- **Authentication & Authorization**  
+  - User registration and login with **ASP.NET Identity**  
+- **Product Management**  
+  - Paging, searching, sorting, and filtering  
+- **Shopping Basket & Orders**  
+  - Add/remove items to basket  
+  - Checkout flow to create an order  
+- **Payment Integration**  
+  - Stripe payments with EU **3D Secure** standards  
+- **UI/UX**  
+  - Built with **Material UI** for a clean and responsive design  
+  - Reusable forms using **React Hook Form**  
+- **Other Enhancements**  
+  - Automapper for object mapping  
+  - State management with **Redux**  
+  - Client-side routing with **React Router 6**  
+- **Deployment**  
+  - Hosted on **Heroku**  
 
-[Udemy course](https://www.udemy.com/course/learn-to-build-an-e-commerce-store-with-dotnet-react-redux/?couponCode=GITHUBRESTORE)
+---
 
-# Previous versions of the code
+## 🛠 Tech Stack
+- **Backend**: .NET 7, ASP.NET Core Web API, Entity Framework Core, ASP.NET Identity  
+- **Frontend**: React 18, Redux, React Router 6, Material UI, React Hook Form, Axios  
+- **Database**: SQL Server (via EF Core)  
+- **Payments**: Stripe  
+- **Deployment**: Heroku  
+- **Tools**: Visual Studio Code  
 
-If you are looking for the repository for the version of this app created on .Net 7.0, React 18 then this is available here:
+---
 
-https://github.com/TryCatchLearn/Restore
+## 📸 Screenshots
+(Add screenshots here to illustrate each feature, e.g. home page, product list, basket, checkout, admin panel)
 
-If you are looking for the repository for the version of this app created on .Net 6.0 and Angular v12 then this is available here:
+---
 
-https://github.com/TryCatchLearn/Restore-v6
+## ⚡ Getting Started
+### Prerequisites
+- Node.js  
+- .NET 7 SDK  
+- SQL Server  
+
+### Installation
+1. Clone the repository  
+2. Navigate to the backend folder and run:
+   dotnet restore
+   dotnet ef database update
+   dotnet run
+Navigate to the frontend folder and run:
+  npm install
+  npm start
