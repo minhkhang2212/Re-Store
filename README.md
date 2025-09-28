@@ -39,7 +39,25 @@ The project demonstrates a complete workflow of creating a modern web applicatio
 ---
 
 ## 📸 Screenshots
-(Add screenshots here to illustrate each feature, e.g. home page, product list, basket, checkout, admin panel)
+![Homepage](./images/Homepage%20Store.png)
+
+### Product Page
+![Product](./images/Product.png)
+
+### Basket
+![Basket](./images/Basket.png)
+
+### Checkout
+![Checkout](./images/Checkout.png)
+
+### Billing
+![Billing](./images/Billing.png)
+
+### Order History
+![Order History](./images/Order%20History.png)
+
+### Sign-in
+![Sign-in](./images/Sign-in.png)
 
 ---
 
